@@ -2,7 +2,6 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
   get '/reverse' do
-    binding.pry
     erb :reverse
   end
 
